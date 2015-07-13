@@ -11,6 +11,14 @@
 |
 */
 
+
+
 Route::get('/', function () {
-	return \App\testMongo::all();
+	$credentials = [
+		'email'    => 'john.doe@example.com',
+		'password' => 'password',
+	];
+
+	$user = Sentinel::create($credentials);
+	return $user;
 });

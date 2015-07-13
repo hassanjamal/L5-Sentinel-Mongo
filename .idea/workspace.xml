@@ -1,0 +1,1638 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1c07d01f-c807-4802-a0ae-49512b80ec2e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Sentinel/EloquentActivation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Sentinel/EloquentPersistence.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Sentinel/EloquentReminder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Sentinel/EloquentRole.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Sentinel/EloquentThrottle.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Sentinel/EloquentUser.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
+    </list>
+    <ignored path="Content_Management.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Content_Management" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="EloquentUser.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Sentinel/EloquentUser.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.24441834" vertical-offset="0" max-vertical-offset="11414">
+              <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/config/database.php" />
+        <option value="$PROJECT_DIR$/config/app.php" />
+        <option value="$PROJECT_DIR$/database/factories/ModelFactory.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/PasswordController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" />
+        <option value="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" />
+        <option value="$PROJECT_DIR$/app/Http/Kernel.php" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/app/testMongo.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/app/Sentinel/EloquentThrottle.php" />
+        <option value="$PROJECT_DIR$/app/Sentinel/EloquentReminder.php" />
+        <option value="$PROJECT_DIR$/app/Sentinel/EloquentActivation.php" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/config/cartalyst.sentinel.php" />
+        <option value="$PROJECT_DIR$/app/Sentinel/EloquentRole.php" />
+        <option value="$PROJECT_DIR$/app/Sentinel/EloquentPersistence.php" />
+        <option value="$PROJECT_DIR$/app/Sentinel/EloquentUser.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <gulpfiles>
+      <GulpfileState>
+        <gulpfile-path>$PROJECT_DIR$/gulpfile.js</gulpfile-path>
+      </GulpfileState>
+    </gulpfiles>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="873" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ColorIdeProjectViewPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ColorIdeProjectViewPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Content_Management" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Content_Management" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Content_Management" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Content_Management" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Content_Management" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Content_Management" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Content_Management" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cartalyst" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Content_Management" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Content_Management" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cartalyst" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sentinel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Content_Management" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Content_Management" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cartalyst" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sentinel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Content_Management" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Content_Management" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cartalyst" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sentinel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Permissions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Content_Management" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Content_Management" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Content_Management" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Content_Management" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migrations" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Content_Management" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Content_Management" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Content_Management" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Content_Management" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sentinel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Content_Management" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Content_Management" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Providers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/Sentinel" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1c07d01f-c807-4802-a0ae-49512b80ec2e" name="Default" comment="" />
+      <created>1436745827919</created>
+      <option name="number" value="Default" />
+      <updated>1436745827919</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="873" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7638073" vertical-offset="728" max-vertical-offset="3588">
+          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <folding>
+            <marker date="1436745896000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436745896000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436745896000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436745896000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436745896000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436745896000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436745896000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436745896000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436745896000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436745896000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436745896000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436745896000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436745896000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436745896000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5417156" vertical-offset="4791" max-vertical-offset="5642">
+          <caret line="202" column="26" selection-start-line="202" selection-start-column="26" selection-end-line="202" selection-end-column="26" />
+          <folding>
+            <marker date="1436746276000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436746276000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436746276000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436746276000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436746276000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436746276000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436746276000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436746276000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436746276000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436746276000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436746276000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436746276000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436746276000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436746276000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436746276000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436746276000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436746276000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/factories/ModelFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36662748" vertical-offset="0" max-vertical-offset="851">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <marker date="1436746535000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1436746535000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436746535000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436746535000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17508814" vertical-offset="189" max-vertical-offset="1040">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+          <folding>
+            <marker date="1436746542000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1436746542000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436746542000" expanded="true" signature="-1:-1" placeholder=" Run the migrations. ..." />
+            <marker date="1436746542000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436746542000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436746542000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436746542000" expanded="true" signature="-1:-1" placeholder=" Reverse the migrations. ..." />
+            <marker date="1436746542000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33607522" vertical-offset="26" max-vertical-offset="962">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+          <folding>
+            <marker date="1436746547000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1436746547000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436746547000" expanded="true" signature="-1:-1" placeholder=" Run the migrations. ..." />
+            <marker date="1436746547000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436746547000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436746547000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436746547000" expanded="true" signature="-1:-1" placeholder=" Reverse the migrations. ..." />
+            <marker date="1436746547000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="851">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1436743106000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1436743106000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743106000" expanded="true" signature="-1:-1" placeholder=" Run the database seeds. ..." />
+            <marker date="1436743106000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/filesystems.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.61104584" vertical-offset="520" max-vertical-offset="2366">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1436743106000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743106000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743106000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743106000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743106000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743106000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743106000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743106000" expanded="true" signature="-1:-1" placeholder="//..." />
+            <marker date="1436743106000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743106000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/compile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1066">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1436743106000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743106000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743106000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743106000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743106000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1352">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1436743106000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1436743106000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743106000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743106000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743106000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743106000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1040">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1436743106000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743106000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743106000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.31374854" vertical-offset="891" max-vertical-offset="1742">
+          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+          <folding>
+            <marker date="1436746623000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1436746623000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436746623000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436746623000" expanded="true" signature="-1:-1" placeholder=" Create a new authentication controller instance. ..." />
+            <marker date="1436746623000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436746623000" expanded="true" signature="-1:-1" placeholder=" Get a validator for an incoming registration request. ..." />
+            <marker date="1436746623000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436746623000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436746623000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436746623000" expanded="true" signature="-1:-1" placeholder=" Create a new user instance after a valid registration. ..." />
+            <marker date="1436746623000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436746623000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436746623000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/PasswordController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33607522" vertical-offset="26" max-vertical-offset="962">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+          <folding>
+            <marker date="1436746635000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1436746635000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436746635000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436746635000" expanded="true" signature="-1:-1" placeholder=" Create a new password controller instance. ..." />
+            <marker date="1436746635000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/Authenticate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6333725" vertical-offset="501" max-vertical-offset="1352">
+          <caret line="41" column="12" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
+          <folding>
+            <marker date="1436746647000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1436746647000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436746647000" expanded="true" signature="-1:-1" placeholder=" The Guard implementation. ..." />
+            <marker date="1436746647000" expanded="true" signature="-1:-1" placeholder=" Create a new filter instance. ..." />
+            <marker date="1436746647000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436746647000" expanded="true" signature="-1:-1" placeholder=" Handle an incoming request. ..." />
+            <marker date="1436746647000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436746647000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436746647000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436746647000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/EncryptCookies.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="851">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1436743106000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743106000" expanded="true" signature="-1:-1" placeholder=" The names of the cookies that should not be encrypted. ..." />
+            <marker date="1436743106000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.54994124" vertical-offset="0" max-vertical-offset="1222">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding>
+            <marker date="1436746654000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1436746654000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436746654000" expanded="true" signature="-1:-1" placeholder=" The Guard implementation. ..." />
+            <marker date="1436746654000" expanded="true" signature="-1:-1" placeholder=" Create a new filter instance. ..." />
+            <marker date="1436746654000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436746654000" expanded="true" signature="-1:-1" placeholder=" Handle an incoming request. ..." />
+            <marker date="1436746654000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436746654000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="851">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1436743106000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743106000" expanded="true" signature="-1:-1" placeholder=" The URIs that should be excluded from CSRF verification. ..." />
+            <marker date="1436743106000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Requests/Request.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30552292" vertical-offset="0" max-vertical-offset="851">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <marker date="1436743106000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48061106" vertical-offset="163" max-vertical-offset="1040">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <marker date="1436746679000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436746679000" expanded="true" signature="-1:-1" placeholder=" The application's global HTTP middleware stack. ..." />
+            <marker date="1436746679000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436746679000" expanded="true" signature="-1:-1" placeholder=" The application's route middleware. ..." />
+            <marker date="1436746679000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33607522" vertical-offset="0" max-vertical-offset="851">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/cartalyst/sentinel/src/Roles/EloquentRole.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.8860164" vertical-offset="910" max-vertical-offset="3692">
+          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+          <folding>
+            <marker date="1436743423000" expanded="false" signature="-1:-1" placeholder=" Part of the Sentinel package. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" {@inheritDoc} ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" {@inheritDoc} ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" The Eloquent users model name. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" The Users relationship. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Get mutator for the &quot;permissions&quot; attribute. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Set mutator for the &quot;permissions&quot; attribute. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" {@inheritDoc} ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" {@inheritDoc} ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" {@inheritDoc} ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" {@inheritDoc} ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" {@inheritDoc} ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Dynamically pass missing methods to the permissions. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" {@inheritDoc} ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/cartalyst/sentinel/src/migrations/2014_07_02_230147_migration_cartalyst_sentinel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.42773208" vertical-offset="364" max-vertical-offset="2938">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1436743423000" expanded="false" signature="-1:-1" placeholder=" Part of the Sentinel package. ..." />
+            <marker date="1436743423000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Run the migrations. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Reverse the migrations. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/cartalyst/sentinel/src/Activations/EloquentActivation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.7638073" vertical-offset="702" max-vertical-offset="1768">
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+          <folding>
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Part of the Sentinel package. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" {@inheritDoc} ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" {@inheritDoc} ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Get mutator for the &quot;completed&quot; attribute. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Set mutator for the &quot;completed&quot; attribute. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/cartalyst/sentinel/src/Native/Facades/Sentinel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2652">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1436743423000" expanded="false" signature="-1:-1" placeholder=" Part of the Sentinel package. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" The Sentinel instance. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" The Native Bootstraper instance. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Constructor. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Returns the Sentinel instance. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Creates a new Native Bootstraper instance. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Handle dynamic, static calls to the object. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/cartalyst/sentinel/src/Native/ConfigRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.5969448" vertical-offset="1359" max-vertical-offset="2210">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1436743423000" expanded="false" signature="-1:-1" placeholder=" Part of the Sentinel package. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" The config file path. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" The config data. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Constructor. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Load the configuration file. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" {@inheritDoc} ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" {@inheritDoc} ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" {@inheritDoc} ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" {@inheritDoc} ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/cartalyst/sentinel/src/Native/SentinelBootstrapper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.318449" vertical-offset="7079" max-vertical-offset="7930">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1436743423000" expanded="false" signature="-1:-1" placeholder=" Part of the Sentinel package. ..." />
+            <marker date="1436743423000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Configuration. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" The event dispatcher. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Constructor. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Creates a sentinel instance. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Creates a persistences repository. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Creates a session. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Creates a cookie. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Creates a user repository. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Creates a hasher. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Creates a role repository. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Creates an activation repository. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Returns the client's ip address. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Create an activation checkpoint. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Create activation and throttling checkpoints. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Create a throttle checkpoint. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Create a throttling repository. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Returns the event dispatcher. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Create a reminder repository. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/cartalyst/sentinel/src/Laravel/Facades/Activation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="851">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1436743423000" expanded="false" signature="-1:-1" placeholder=" Part of the Sentinel package. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" {@inheritDoc} ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/cartalyst/sentinel/src/Laravel/Facades/Reminder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="851">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1436743423000" expanded="false" signature="-1:-1" placeholder=" Part of the Sentinel package. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" {@inheritDoc} ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/cartalyst/sentinel/src/Laravel/Facades/Sentinel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="851">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1436743423000" expanded="false" signature="-1:-1" placeholder=" Part of the Sentinel package. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" {@inheritDoc} ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/cartalyst/sentinel/src/Laravel/SentinelServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.8272622" vertical-offset="3257" max-vertical-offset="11180">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1436743423000" expanded="false" signature="-1:-1" placeholder=" Part of the Sentinel package. ..." />
+            <marker date="1436743423000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" {@inheritDoc} ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" {@inheritDoc} ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Prepare the package resources. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Registers the persistences. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Registers the session. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Registers the cookie. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Registers the users. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Registers the hahser. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Registers the roles. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Registers the checkpoints. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Registers the activation checkpoint. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Registers the activations. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Registers the throttle checkpoint. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Registers the throttle. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Registers the reminders. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Registers sentinel. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" {@inheritDoc} ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Garbage collect activations and reminders. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Sweep expired codes. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Determine if the configuration odds hit the lottery. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Sets the user resolver on the request class. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/cartalyst/sentinel/src/Sentinel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.2798053" vertical-offset="16418" max-vertical-offset="21788">
+          <caret line="603" column="11" selection-start-line="603" selection-start-column="9" selection-end-line="603" selection-end-column="11" />
+          <folding>
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Part of the Sentinel package. ..." />
+            <marker date="1436743423000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" The current cached, logged in user. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" The Persistence repository. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" The User repository. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" The Role repository. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" The Activations repository. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Cached, available methods on the user repository, used for dynamic calls. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Array that holds all the enabled checkpoints. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Flag for the checkpoint status. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" The Reminders repository. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" The closure to retrieve the request credentials. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" The closure used to create a basic response for failed HTTP auth. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Create a new Sentinel instance. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Registers a user. You may provide a callback to occur before the user ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Registers and activates the user. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Activates the given user. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Checks to see if a user is logged in. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Checks to see if a user is logged in, bypassing checkpoints ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Checks if we are currently a guest. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Authenticates a user, with &quot;remember&quot; flag. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Authenticates a user, with the &quot;remember&quot; flag. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Forces an authentication to bypass checkpoints. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Forces an authentication to bypass checkpoints, with the &quot;remember&quot; flag. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Attempt a stateless authentication. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Attempt to authenticate using HTTP Basic Auth. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Returns the request credentials. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Sets the closure which resolves the request credentials. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Sends a response when HTTP basic authentication fails. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Sets the callback which creates a basic response. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Persists a login for the given user. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Persists a login for the given user, with the &quot;remember&quot; flag. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Logs the current user out. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Pass a closure to Sentinel to bypass checkpoints. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Checks if checkpoints are enabled. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Enables checkpoints. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Disables checkpoints. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Add a new checkpoint to Sentinel. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Removes a checkpoint. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Cycles through all the registered checkpoints for a user. Checkpoints ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Returns the currently logged in user, lazily checking for it. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Sets the user associated with Sentinel (does not log in). ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Returns the user repository. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Sets the user repository. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Returns the role repository. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Sets the role repository. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Returns the persistences repository. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Sets the persistences repository. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Returns the activations repository. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Sets the activations repository. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Returns the reminders repository. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Sets the reminders repository. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Returns all accessible methods on the associated user repository. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Dynamically pass missing methods to Sentinel. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/cartalyst/sentinel/src/Users/UserRepositoryInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.0552292" vertical-offset="1749" max-vertical-offset="2600">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1436743423000" expanded="false" signature="-1:-1" placeholder=" Part of the Sentinel package. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Finds a user by the given primary key. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Finds a user by the given credentials. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Finds a user by the given persistence code. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Records a login for the given user. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Records a logout for the given user. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Validate the password of the given user. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Validate if the given user is valid for creation. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Validate if the given user is valid for updating. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Creates a user. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Updates a user. ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/cartalyst/sentinel/src/Users/UserInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1092">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1436743423000" expanded="false" signature="-1:-1" placeholder=" Part of the Sentinel package. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Returns the user primary key. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Returns the user login. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Returns the user login attribute name. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Returns the user password. ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/cartalyst/sentinel/src/Users/IlluminateUserRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8450">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1436743423000" expanded="false" signature="-1:-1" placeholder=" Part of the Sentinel package. ..." />
+            <marker date="1436743423000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" The hasher instance. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" The Eloquent user model name. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Create a new Illuminate user repository. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" {@inheritDoc} ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" {@inheritDoc} ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" {@inheritDoc} ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" {@inheritDoc} ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" {@inheritDoc} ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" {@inheritDoc} ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" {@inheritDoc} ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" {@inheritDoc} ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" {@inheritDoc} ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" {@inheritDoc} ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Parses the given credentials to return logins, password and others. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Validates the user. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Fills a user with the given credentials, intelligently. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Returns the hasher instance. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Sets the hasher instance. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/cartalyst/sentinel/src/Users/EloquentUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.5663924" vertical-offset="2340" max-vertical-offset="11336">
+          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+          <folding>
+            <marker date="1436743423000" expanded="false" signature="-1:-1" placeholder=" Part of the Sentinel package. ..." />
+            <marker date="1436743423000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" {@inheritDoc} ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" {@inheritDoc} ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" {@inheritDoc} ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" {@inheritDoc} ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Array of login column names. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" The Eloquent roles model name. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" The Eloquent persistences model name. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" The Eloquent activations model name. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" The Eloquent reminders model name. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" The Eloquent throttling model name. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Returns an array of login column names. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Returns the roles relationship. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Returns the persistences relationship. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Returns the activations relationship. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Returns the reminders relationship. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Returns the throttle relationship. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Get mutator for the &quot;permissions&quot; attribute. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Set mutator for the &quot;permissions&quot; attribute. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" {@inheritDoc} ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" {@inheritDoc} ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" {@inheritDoc} ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" {@inheritDoc} ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" {@inheritDoc} ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" {@inheritDoc} ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" {@inheritDoc} ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" {@inheritDoc} ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" {@inheritDoc} ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" {@inheritDoc} ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" {@inheritDoc} ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" {@inheritDoc} ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Returns the roles model. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Sets the roles model. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Returns the persistences model. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Sets the persistences model. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Returns the activations model. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Sets the activations model. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Returns the reminders model. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Sets the reminders model. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Returns the throttling model. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Sets the throttling model. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" {@inheritDoc} ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Dynamically pass missing methods to the user. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" Creates a permissions object. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.030552292" vertical-offset="104" max-vertical-offset="1612">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+          <folding>
+            <marker date="1436758968000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;laravel/laravel&quot;...}" />
+            <marker date="1436758968000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1436758968000" expanded="true" signature="-1:-1" placeholder="{&quot;php&quot;: &quot;&gt;=5.5.9&quot;...}" />
+            <marker date="1436758968000" expanded="true" signature="-1:-1" placeholder="{&quot;fzaninotto/faker&quot;: &quot;~1.4&quot;...}" />
+            <marker date="1436758968000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436758968000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1436758968000" expanded="true" signature="-1:-1" placeholder="{&quot;App\\&quot;: &quot;app/&quot;...}" />
+            <marker date="1436758968000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436758968000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1436758968000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436758968000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1436758968000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1436758968000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1436758968000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1436758968000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1436758968000" expanded="true" signature="-1:-1" placeholder="{&quot;preferred-install&quot;: &quot;dist&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="884">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1436743106000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743106000" expanded="true" signature="-1:-1" placeholder=" Bootstrap any application services. ..." />
+            <marker date="1436743106000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743106000" expanded="true" signature="-1:-1" placeholder=" Register any application services. ..." />
+            <marker date="1436743106000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/testMongo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15276146" vertical-offset="0" max-vertical-offset="851">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+          <folding>
+            <marker date="1436753018000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/cartalyst/sentinel/src/Permissions/StandardPermissions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27497062" vertical-offset="0" max-vertical-offset="1066">
+          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+          <folding>
+            <marker date="1436743423000" expanded="false" signature="-1:-1" placeholder=" Part of the Sentinel package. ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder=" {@inheritDoc} ..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436743423000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42773208" vertical-offset="0" max-vertical-offset="851">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <marker date="1436764402000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436764402000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436764402000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436764402000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/cartalyst.sentinel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14453584" vertical-offset="4297" max-vertical-offset="5148">
+          <caret line="186" column="32" selection-start-line="186" selection-start-column="32" selection-end-line="186" selection-end-column="32" />
+          <folding>
+            <marker date="1436764541000" expanded="false" signature="-1:-1" placeholder=" Part of the Sentinel package. ..." />
+            <marker date="1436764541000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436764541000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436764541000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436764541000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436764541000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436764541000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436764541000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436764541000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436764541000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436764541000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436764541000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436764541000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436764541000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436764541000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436764541000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436764541000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436764541000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436764541000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436764541000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436764541000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436764541000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436764541000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436764541000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Sentinel/EloquentActivation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.061104584" vertical-offset="0" max-vertical-offset="1404">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <marker date="1436763844000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436763844000" expanded="true" signature="-1:-1" placeholder=" {@inheritDoc} ..." />
+            <marker date="1436763844000" expanded="true" signature="-1:-1" placeholder=" {@inheritDoc} ..." />
+            <marker date="1436763844000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436763844000" expanded="true" signature="-1:-1" placeholder=" Get mutator for the &quot;completed&quot; attribute. ..." />
+            <marker date="1436763844000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436763844000" expanded="true" signature="-1:-1" placeholder=" Set mutator for the &quot;completed&quot; attribute. ..." />
+            <marker date="1436763844000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Sentinel/EloquentPersistence.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15276146" vertical-offset="26" max-vertical-offset="1430">
+          <caret line="6" column="55" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
+          <folding>
+            <marker date="1436764720000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1436764720000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436764720000" expanded="true" signature="-1:-1" placeholder=" {@inheritDoc} ..." />
+            <marker date="1436764720000" expanded="true" signature="-1:-1" placeholder=" The users model name. ..." />
+            <marker date="1436764720000" expanded="true" signature="-1:-1" placeholder=" {@inheritDoc} ..." />
+            <marker date="1436764720000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436764720000" expanded="true" signature="-1:-1" placeholder=" Get the users model. ..." />
+            <marker date="1436764720000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436764720000" expanded="true" signature="-1:-1" placeholder=" Set the users model. ..." />
+            <marker date="1436764720000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Sentinel/EloquentReminder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.061104584" vertical-offset="0" max-vertical-offset="1404">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <marker date="1436763908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436763908000" expanded="true" signature="-1:-1" placeholder=" {@inheritDoc} ..." />
+            <marker date="1436763908000" expanded="true" signature="-1:-1" placeholder=" {@inheritDoc} ..." />
+            <marker date="1436763908000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436763908000" expanded="true" signature="-1:-1" placeholder=" Get mutator for the &quot;completed&quot; attribute. ..." />
+            <marker date="1436763908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436763908000" expanded="true" signature="-1:-1" placeholder=" Set mutator for the &quot;completed&quot; attribute. ..." />
+            <marker date="1436763908000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Sentinel/EloquentRole.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33607522" vertical-offset="468" max-vertical-offset="4160">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <marker date="1436764683000" expanded="true" signature="-1:-1" placeholder=" Part of the Sentinel package. ..." />
+            <marker date="1436764683000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436764683000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436764683000" expanded="true" signature="-1:-1" placeholder=" {@inheritDoc} ..." />
+            <marker date="1436764683000" expanded="true" signature="-1:-1" placeholder=" {@inheritDoc} ..." />
+            <marker date="1436764683000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436764683000" expanded="true" signature="-1:-1" placeholder=" The Eloquent users model name. ..." />
+            <marker date="1436764683000" expanded="true" signature="-1:-1" placeholder=" The Users relationship. ..." />
+            <marker date="1436764683000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436764683000" expanded="true" signature="-1:-1" placeholder=" Get mutator for the &quot;permissions&quot; attribute. ..." />
+            <marker date="1436764683000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436764683000" expanded="true" signature="-1:-1" placeholder=" Set mutator for the &quot;permissions&quot; attribute. ..." />
+            <marker date="1436764683000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436764683000" expanded="true" signature="-1:-1" placeholder=" {@inheritDoc} ..." />
+            <marker date="1436764683000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436764683000" expanded="true" signature="-1:-1" placeholder=" {@inheritDoc} ..." />
+            <marker date="1436764683000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436764683000" expanded="true" signature="-1:-1" placeholder=" {@inheritDoc} ..." />
+            <marker date="1436764683000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436764683000" expanded="true" signature="-1:-1" placeholder=" {@inheritDoc} ..." />
+            <marker date="1436764683000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436764683000" expanded="true" signature="-1:-1" placeholder=" {@inheritDoc} ..." />
+            <marker date="1436764683000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436764683000" expanded="true" signature="-1:-1" placeholder=" Dynamically pass missing methods to the permissions. ..." />
+            <marker date="1436764683000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436764683000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1436764683000" expanded="true" signature="-1:-1" placeholder=" {@inheritDoc} ..." />
+            <marker date="1436764683000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Sentinel/EloquentThrottle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.061104584" vertical-offset="0" max-vertical-offset="851">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <marker date="1436763935000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436763935000" expanded="true" signature="-1:-1" placeholder=" {@inheritDoc} ..." />
+            <marker date="1436763935000" expanded="true" signature="-1:-1" placeholder=" {@inheritDoc} ..." />
+            <marker date="1436763935000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Sentinel/EloquentUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24441834" vertical-offset="0" max-vertical-offset="11414">
+          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
